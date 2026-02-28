@@ -27,5 +27,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE_HOST: ${{ secrets.SERVER_IP }}
           REMOTE_USER: root
+          PORT: ${{ secrets.SSH_PORT }}
           SOURCE: "site/"  # MkDocs 生成的目录
           TARGET: "/www/wwwroot/docs.kuank.top" # 刚才在宝塔看好的那个路径
+          ARGS: "-avz --delete" #确保完全同步
