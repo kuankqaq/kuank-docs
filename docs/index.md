@@ -1,7 +1,9 @@
 # 欢迎来到猫羽雫の纯净快乐小屋
-[QQ群](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&authKey=BkkpO5PShOumw9ULWD6xva2GDGrK9O5bp53IVdvoAhXH9wym7yZDkp5jInu3J6%2B9&group_code=1036903896) [电报(防失联)](t.me/kuankqaq) [Steam群组]() [Oopz语音频道](https://oopz.cn/i/gFpuGo)
+[QQ群](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&authKey=BkkpO5PShOumw9ULWD6xva2GDGrK9O5bp53IVdvoAhXH9wym7yZDkp5jInu3J6%2B9&group_code=1036903896) [电报(防失联)](https://t.me/kuankqaq) [Steam群组]() [Oopz语音频道](https://oopz.cn/i/gFpuGo)
 
 #### 机器人相关
+> [!NOTE]
+>
 > 群内官方机器人为`宽宽备用bot`与`宽宽_bot`，指令除非特殊声明，否则默认触发第一个bot
 > 进群默认绑定Steam账号
 > 机器人有经济系统 详见机器人文档[未完成]
