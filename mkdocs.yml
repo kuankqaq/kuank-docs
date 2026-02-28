@@ -2,6 +2,17 @@ site_name: 求生之路服务器必看文档
 theme:
   name: material
   language: zh
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.blocks.admonition:
+      types:
+        - note
+        - warning
+        - info
+        - tip
+        - danger
 nav:
   - 首页: index.md
   - 快速开始: start.md
