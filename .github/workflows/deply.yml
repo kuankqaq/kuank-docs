@@ -30,4 +30,5 @@ jobs:
           REMOTE_PORT: ${{ secrets.SSH_PORT }}  # <--- 关键修改：改为 REMOTE_PORT
           SOURCE: "site/"  # MkDocs 生成的目录
           TARGET: "/www/wwwroot/docs.kuank.top" # 宝塔站点的绝对路径
+          EXCLUDE: "/.user.ini, /.well-known/, /.htaccess"
           ARGS: "-avz --delete" # 确保服务器文件与 GitHub 完全一致
