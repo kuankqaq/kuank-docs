@@ -1,0 +1,31 @@
+name: Auto_Deploy_To_Baota
+on:
+  push:
+    branches:
+      - main  # 当你往 main 分支推代码时触发
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install MkDocs
+        run: pip install mkdocs-material
+
+      - name: Build
+        run: mkdocs build
+
+      - name: Sync to Baota
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          REMOTE_HOST: ${{ secrets.SERVER_IP }}
+          REMOTE_USER: root
+          SOURCE: "site/"  # MkDocs 生成的目录
+          TARGET: "/www/wwwroot/docs.kuank.top" # 刚才在宝塔看好的那个路径
