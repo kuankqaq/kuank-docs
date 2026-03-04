@@ -15,4 +15,4 @@ markdown_extensions:
         - danger
 nav:
   - 首页: index.md
-  - 快速开始: start.md
+  - 网站必看: website.md
