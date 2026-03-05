@@ -16,3 +16,4 @@ markdown_extensions:
 nav:
   - 首页: index.md
   - 网站必看: website.md
+  - 关于: about.md
