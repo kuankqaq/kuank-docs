@@ -1,5 +1,5 @@
 # 欢迎来到猫羽雫の纯净快乐小屋
-[QQ群](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&authKey=BkkpO5PShOumw9ULWD6xva2GDGrK9O5bp53IVdvoAhXH9wym7yZDkp5jInu3J6%2B9&group_code=1036903896) [电报(防失联)](https://t.me/kuankqaq) [Steam群组]() [Oopz语音频道](https://oopz.cn/i/gFpuGo)
+[QQ群](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&authKey=BkkpO5PShOumw9ULWD6xva2GDGrK9O5bp53IVdvoAhXH9wym7yZDkp5jInu3J6%2B9&group_code=1036903896) [电报(防失联)](https://t.me/kuankqaq) [Steam群组](https://steamcommunity.com/chat/invite/nNfXxCse) [Oopz语音频道](https://oopz.cn/i/gFpuGo)
 
 !!! note "机器人相关"
 	群内官方机器人为`宽宽备用bot`与`宽宽_bot`，指令除非特殊声明，否则默认触发第一个bot
@@ -8,7 +8,7 @@
 
 **/群组** 显示所有服务器基础信息
 
-**/connect [IP:PORT]** 查询给定服务器信息，其中[IP:PORT]若不理解请查看以下示例: 
+**/connect [IP:PORT]** 查询给定服务器信息，其中[IP:PORT]若不理解请查看以下示例: 114.514.19.80:11451
 
 **/三方** 显示当日三方信息 
 
