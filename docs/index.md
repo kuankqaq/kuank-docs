@@ -1,6 +1,9 @@
 # 欢迎来到猫羽雫の纯净快乐小屋
 [QQ群](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&authKey=BkkpO5PShOumw9ULWD6xva2GDGrK9O5bp53IVdvoAhXH9wym7yZDkp5jInu3J6%2B9&group_code=1036903896) [电报(防失联)](https://t.me/kuankqaq) [Steam群组](https://steamcommunity.com/chat/invite/nNfXxCse) [Oopz语音频道](https://oopz.cn/i/gFpuGo)
 
+群内最伟大发明
+求生之路脚本软件，请详见游戏增强的脚本软件板块
+
 !!! note "机器人相关"
 	群内官方机器人为`宽宽备用bot`与`宽宽_bot`，指令除非特殊声明，否则默认触发第一个bot
 	进群默认绑定Steam账号
