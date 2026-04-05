@@ -18,7 +18,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install mkdocs-material
-          pip install pymdown-extensions  # <--- 新增：支持提示框的核心库
+          pip install pymdown-extensions
 
       - name: Build
         run: mkdocs build
