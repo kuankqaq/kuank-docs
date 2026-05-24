@@ -1,4 +1,4 @@
-site_name: 服务器必看文档
+site_name: 宽宽的文档站
 theme:
   name: material
   language: zh
@@ -13,11 +13,84 @@ markdown_extensions:
         - info
         - tip
         - danger
+        - important
 nav:
   - 首页: index.md
+  - 服务器简介: server-index.md
   - 网站必看: website.md
   - 游戏增强:
       主页面美化: ba-menu.md
       一键安装脚本: script.md
   - 常见问题: faq.md
   - 关于: about.md
+  - SlimeVR汉化:
+    - 简介: SlimeVR/index.md
+    - 用户指南:
+      - SlimeVR 101: SlimeVR/user-guide/slimevr101.md
+      - 快速设置: SlimeVR/user-guide/quick-setup.md
+      - 常见问题: SlimeVR/user-guide/common-issues.md
+      - SlimeVR 体验调查: SlimeVR/user-guide/survey.md
+      - 安全指南: SlimeVR/user-guide/safety-guides.md
+      - 更新追踪器固件: SlimeVR/user-guide/updating-firmware.md
+      - SlimeVR 术语表: SlimeVR/user-guide/glossary.md
+    - DIY 构建指南:
+      - 从零开始构建: SlimeVR/diy/index.md
+      - 组件指南: SlimeVR/diy/components-guide.md
+      - 社区制造的壳: SlimeVR/diy/cases.md
+      - 追踪器原理图: SlimeVR/diy/tracker-schematics.md
+      - IMU 对比: SlimeVR/diy/imu-comparison.md
+      - DIY 绑带组件: SlimeVR/diy/diy-strap-components.md
+      - 社区 DIY 绑带: SlimeVR/diy/community-diy-straps.md
+      - 上传追踪器固件: SlimeVR/firmware/index.md
+      - 设置环境: SlimeVR/firmware/setup-and-install.md
+      - 配置固件: SlimeVR/firmware/configuring-project.md
+      - 构建并上传固件: SlimeVR/firmware/upload-firmware.md
+      - DIY 套件指南: SlimeVR/diy/diy_kit_guide.md
+      - 官方克隆追踪器: SlimeVR/diy/official_clone_trackers.md
+    - Smol Slime:
+      - Smol Slime: SlimeVR/smol-slimes/index.md
+      - Smol 硬件: SlimeVR/smol-slimes/hardware/index.md
+      - Smol 接收器: SlimeVR/smol-slimes/hardware/smol-receiver.md
+      - Smol 追踪器: SlimeVR/smol-slimes/hardware/smol-tracker.md
+      - Smol DIY 套件成本计算器: SlimeVR/smol-slimes/hardware/smol-diy-set-cost-calculator.md
+      - Smol 社区 DIY: SlimeVR/smol-slimes/community/index.md
+      - Smol 社区构建: SlimeVR/smol-slimes/hardware/smol-slimes-community-builds.md
+      - Smol 社区绑带: SlimeVR/smol-slimes/hardware/smol-slimes-community-straps.md
+      - Smol 社区底座: SlimeVR/smol-slimes/community/smol-slimes-community-docks.md
+      - Smol 追踪器焊接: SlimeVR/smol-slimes/hardware/smol-tracker-soldering.md
+      - Smol 固件: SlimeVR/smol-slimes/firmware/index.md
+      - Smol 预编译固件: SlimeVR/smol-slimes/firmware/smol-pre-compiled-firmware.md
+      - Smol 刷写引导加载程序和固件: SlimeVR/smol-slimes/firmware/smol-flashing-firmware.md
+      - Smol 更新固件: SlimeVR/smol-slimes/firmware/smol-updating-firmware.md
+      - SmolSlimeConfigurator: SlimeVR/smol-slimes/firmware/SmolSlimeConfigurator.md
+      - Smol 编译固件: SlimeVR/smol-slimes/firmware/smol-compiling-firmware.md
+      - Smol LED 代码: SlimeVR/smol-slimes/smol-LED-codes.md
+      - Smol 串口和按钮命令: SlimeVR/smol-slimes/firmware/smol-firmware-serial-and-button-commands.md
+      - Smol 配对和校准: SlimeVR/smol-slimes/firmware/smol-pairing-and-calibration.md
+    - 高级用户指南:
+      - 详细设置: SlimeVR/server/index.md
+      - 初始设置: SlimeVR/server/initial-setup.md
+      - 连接追踪器: SlimeVR/server/connecting-trackers.md
+      - 配置追踪器: SlimeVR/server/configuring-trackers.md
+      - 穿戴追踪器: SlimeVR/server/putting-on-trackers.md
+      - 身体比例配置: SlimeVR/server/body-config.md
+      - 设置重置绑定: SlimeVR/server/setting-reset-bindings.md
+      - OSC: SlimeVR/server/osc-information.md
+      - IMU 校准: SlimeVR/server/imu-calibration.md
+      - 备用 Wi-Fi 选项: SlimeVR/server/alternate-wifi.md
+      - 应用和变体: SlimeVR/tools/index.md
+      - owoTrack 应用: SlimeVR/tools/owoTrack.md
+      - SlimeVR Wrangler: SlimeVR/tools/slimevr-wrangler.md
+      - SlimeTora (HaritoraX): SlimeVR/tools/slimetora.md
+      - SlimeVR 在 Linux 上: SlimeVR/tools/linux-installation.md
+      - Termux 设置: SlimeVR/tools/termux-installation.md
+      - L,i,me-Slimes: SlimeVR/tools/lime-slimes.md
+      - ShadowPC 与 SlimeVR: SlimeVR/tools/shadowpc.md
+      - 在 SlimeVR 中使用 SteamVR 追踪器 (Vive/Tundra): SlimeVR/tools/steamvr-trackers-mixing.md
+      - VRChat 配置: SlimeVR/tools/vrchat-config.md
+      - 移动端设置: SlimeVR/tools/mobile-installation.md
+      - MacOS 安装: SlimeVR/tools/MacOS-Installation.md
+    - 贡献者: SlimeVR/misc/contributors.md
+    - 合规性: SlimeVR/misc/compliance.md
+    - 隐私政策: SlimeVR/misc/privacy-policy.md
+    - 兼容性: SlimeVR/misc/compatibility.md
