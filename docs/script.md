@@ -54,7 +54,14 @@
 - 支持逗号分隔多个URL批量下载
 - 显示下载进度条
 
-6. unzip [file] [to [dir]] [---del-source] [--force]
+6. down_123 [url] [pwd 提取码] [to [dir]]
+从123云盘分享链接免登录下载文件（与普通 down 一样显示进度条）
+- 自动提取分享Key，无需手动填参数
+- `pwd` 可选，用于有提取码的分享
+- 不填 `to` 默认下载到脚本所在目录
+- 自动下载分享中的所有文件
+
+7. unzip [file] [to [dir]] [---del-source] [--force]
 解压文件
 - 支持 `.zip`、`.rar`、`.7z`、`.tar.gz`、`.tgz` 格式
 - 不填 `to` 默认解压到压缩包所在目录
@@ -64,12 +71,20 @@
 - 添加 `---del-source` 参数可在解压完成后删除源压缩包
 - 显示解压进度条
 
-7. print "message"
+8. print "message"
 在命令行显示文本
 - 使用双引号或单引号包裹消息内容
 - 脚本中包含 print 时，执行完毕后会等待用户按回车键退出
 
-8. mkdir [dir]
+9. vpkinstall [dir.vpk] [to [dir]] [--force] [---del-source]
+智能安装求生之路2 VPK模组
+- 自动识别同名模组（通过 missions/*.txt 中的第一个 Map 字段）
+- 比较文件修改时间，只有新版本才更新
+- 添加 `--force` 参数时强制覆盖并备份旧版
+- 添加 `---del-source` 参数可在安装完成后删除源 VPK 文件
+- 自动处理多分卷（_dir.vpk + _000.vpk + _001.vpk...）
+
+10. mkdir [dir]
 创建目录（支持多级嵌套目录）
 
 **命令行参数**
@@ -127,6 +142,12 @@ down https://example.com/file.zip
 
 # 下载并重命名
 down https://example.com/file.zip as mymod.vpk
+
+# 从123云盘下载（有提取码时加 pwd 参数）
+down_123 https://xxx.share.123865.com/123pan/xxxx to ./download
+
+# 智能安装VPK模组（自动检测同名更新）
+vpkinstall ./mod_dir.vpk to get_game_dir(vpk)
 
 # 解压并删除源文件
 unzip ./downloads/file.zip to ./extracted/ ---del-source
