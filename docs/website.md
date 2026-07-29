@@ -47,7 +47,7 @@
 
 
 
-即可，需全部复制map中包裹的名称，如 zc_m1 ，注意不是 `displayname`）
+即可，需复制map中包裹的名称，如 `C29_LastResort_1` ，注意不是 `displayname`）
 
 标签可选可不选
 
