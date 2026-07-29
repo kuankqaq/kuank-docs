@@ -18,6 +18,7 @@ nav:
   - 首页: index.md
   - 服务器简介: server-index.md
   - 网站必看: website.md
+  - 机器人文档: robot.md
   - 游戏增强:
       主页面美化: ba-menu.md
       一键安装脚本: script.md
